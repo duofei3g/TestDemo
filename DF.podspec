@@ -13,8 +13,8 @@ s.summary      = "A Library for iOS to use for DF."
 s.homepage     = "https://github.com/duofei3g/TestDemo.git"
 s.license      = { :type => "MIT", :flie=>"LICENSE" }
 s.author             = { "duofei" => "duofei3g@163.com" }
-s.patform     = :ios,'8.0'
+s.platform     = :ios,'8.0'
 s.source       = { :git => "https://github.com/duofei3g/TestDemo.git", :tag => "#{s.version}" }
 s.source_files  = "DF/*.{h,m}"
-s.exclude_flies = "Classes/Exclude"
+s.exclude_files = "Classes/Exclude"
 end
